@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.104.94:3306/chinese?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 2018404
+
+
+
+
+logging:
+  level:
+    hznu.sie.chinese.module.sys.mapper.*: debug
+server:
+  port: 8080
